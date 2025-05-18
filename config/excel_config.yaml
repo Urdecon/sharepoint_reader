@@ -1,0 +1,9 @@
+excel_lookup:
+  # tabla y columnas en PostgreSQL
+  table: companies_bc
+  key_col: name        # columna que se va a comparar
+  value_col: id        # valor que queremos recuperar
+
+  # columnas en el DataFrame de Excel
+  source_key_col: Empresa
+  new_col: id          # cómo se llamará la columna añadida
