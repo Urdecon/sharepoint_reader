@@ -1,6 +1,6 @@
 Okay, aquí tienes el contenido para tu archivo `readme.md`:
 
-```markdown
+
 # BC & Excel ETL – Clean‑Architecture Project
 
 ## Objetivo
@@ -9,7 +9,7 @@ Ingerir datos desde distintas fuentes de Business Central (API v2 & OData V4) y 
 
 ## 🗂️ Estructura principal
 
-```
+```markdown
 project_root/
 ├─ application/            # Casos de uso (orquesta transform + repos)
 ├─ config/                 # .env loader y YAMLs (settings.py)
